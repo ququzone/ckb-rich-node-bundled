@@ -40,7 +40,7 @@ RUN set -eux; \
 
 RUN git clone https://github.com/quake/ckb-indexer.git /ckb-indexer
 RUN cd /ckb-indexer; \
-    git checkout v0.1.4; \
+    git checkout v0.1.6; \
     cargo build --release
 
 FROM nginx:1.16
